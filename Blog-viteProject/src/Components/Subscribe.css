@@ -1,0 +1,104 @@
+/* Subscribe Section */
+.subscribe-section {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+    text-align: center;
+}
+
+.subscribe-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.envelope-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    color: white;
+}
+
+.subscribe-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 16px;
+}
+
+.subscribe-description {
+    font-size: 16px;
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.subscribe-form {
+    margin: 0 auto 20px;
+    max-width: 500px;
+}
+
+.input-group {
+    display: flex;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 16px 24px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-group input::placeholder {
+    color: #a0aec0;
+}
+
+.subscribe-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.subscribe-note {
+    font-size: 14px;
+    color: #718096;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+    .subscribe-title {
+        font-size: 28px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .input-group input {
+        padding: 14px 20px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .subscribe-btn {
+        padding: 14px 20px;
+        border-radius: 0 0 10px 10px;
+    }
+}
